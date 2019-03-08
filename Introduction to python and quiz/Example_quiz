@@ -1,0 +1,63 @@
+
+score = 0
+
+#Question one
+answer = input('What is my name?')
+
+if answer == ' your name':
+   print('Correct')
+   score = score + 1
+   print('Your score is:', (score))
+else:
+   print('incorrect')
+      score = score - 1
+      print('Your score is:', (score))
+
+#Question two    
+answer = input('Who is the prime minister?')
+
+if answer == ' Theresa May':
+      print('Correct')
+      score = score + 1
+      print('Your score is:', (score))
+
+else:
+   print('incorrect')
+   score = score - 1
+   print('Your score is:', (score))
+
+#Question three
+answer = input('What is the capital of France?')
+if answer == ' Paris':
+   print('Correct!')
+   score = score + 1
+   print('Your score is:', (score))
+else:
+   print('incorrect')
+   score = score - 1
+   print('Your score is:', (score))
+
+#Question four
+answer = input('Who is the best beatle (first name)?')
+
+if answer == ' Paul':
+   print('Correct!')
+   score = score + 1
+   print('Your score is:', (score))
+else:
+   print('incorrect')
+   score = score - 1
+   print('Your score is:', (score))
+   
+#Question five 
+answer = input('your question here')
+if answer == 'the answer':
+   print('Correct!')
+   score = score + 1
+   print('Your score is:', (score))
+else:
+   print('incorrect')
+   score = score - 1
+   print('Your score is:', (score))
+
+
