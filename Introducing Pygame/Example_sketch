@@ -17,7 +17,8 @@ clock = pygame.time.Clock()
  
 while not done:
 
-pygame.draw.rect(screen,BLACK,[20,20,250,100],2)
+    pygame.draw.rect(screen,BLACK,[20,20,250,100],2)
+    pygame.display.update()
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
