@@ -61,11 +61,12 @@ while not done:
                 player.speedx = 0
             if event.key == pygame.K_RIGHT:
                 player.speedx = 0
-
+    
+    # Update
+    all_sprites.update()
+    
     # Draw
     screen.fill(BLACK)
-
-    all_sprites.update()
     all_sprites.draw(screen)
 
     # Flip the display
