@@ -1,32 +1,58 @@
 import pygame
- 
+
+#Define some colours
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
- 
+BLUE = (0, 0, 255)
+
+#initialize Pygame and fonts
 pygame.init()
- 
+pygame.font.init()
+
+#Set display mode 
 size = (700, 500)
 screen = pygame.display.set_mode(size)
- 
+
+#Caption display 
 pygame.display.set_caption("My Game")
 
-done = False
+#Pygame Clock
 clock = pygame.time.Clock()
- 
+
+#Set Font                   
+myfont = pygame.font.SysFont('Comic Sans MS', 90)
+
+
+#Main game loop
+done = False
 while not done:
+    
+    # --- Draw a frame
 
-    pygame.draw.rect(screen,BLACK,[20,20,250,100],2)
-    pygame.display.update()
+    #Background
+    screen.fill(WHITE)
 
+    #Draw a square
+    pygame.draw.rect(screen,BLUE,[20,20,660, 460], 13)
+
+    #Add some text
+    textsurface = myfont.render('Pygame Template', False, (255, 0, 0))
+    screen.blit(textsurface,(90,230))
+
+    
+
+    #Update display
+    pygame.display.flip()
+
+
+    #Set FPS 
+    clock.tick(60)
+
+    #Handles quitting
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            done = True
- 
-
-    screen.fill(WHITE)
-    pygame.display.flip()
-    clock.tick(60)
+            done = True    
  
 pygame.quit()
