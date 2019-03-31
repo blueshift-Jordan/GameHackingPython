@@ -1,8 +1,6 @@
 import pygame
 import random
-from os import path
 
-img_dir = path.join(path.dirname(__file__), 'images')
 
 pygame.init()
 
@@ -90,11 +88,11 @@ class Projectile(pygame.sprite.Sprite):
             self.kill()
 
 # Load all game graphics
-background = pygame.image.load(path.join(img_dir, 'background.png')).convert()
+background = pygame.image.load('images/background.png')
 background_rect = background.get_rect()
-player_img = pygame.image.load(path.join(img_dir, 'ship.png')).convert_alpha()
-mob_img = pygame.image.load(path.join(img_dir, 'meteor.png')).convert_alpha()
-laser_img = pygame.image.load(path.join(img_dir, 'laser.png')).convert_alpha()
+player_img = pygame.image.load('images/ship.png')
+mob_img = pygame.image.load('images/meteor.png')
+laser_img = pygame.image.load('images/laser.png')
 
 player = Player()
 all_sprites = pygame.sprite.Group()
