@@ -27,4 +27,4 @@ Lesson number | Lesson
  Nineteen     | Radio (sending strings
  Twenty       | 
 
-Credit: Has course was created created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
+Credit: This course was created created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
