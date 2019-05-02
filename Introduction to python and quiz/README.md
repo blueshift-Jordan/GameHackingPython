@@ -1,13 +1,12 @@
-##TASK: Create your own quiz with 5 question
+## TASK: Create your own quiz with 5 question
 
-###EXTENSIONS: 
-####Easy
-#####Add an else outcome to you code
+### EXTENSIONS: 
+#### Easy
 
-#####And multiple ‘Correct’ answers  
+##### Add an else outcome to you code
+##### And multiple ‘Correct’ answers  
 
-####Hard
+#### Hard
 
-#####Add a Variable for score
-
-#####Integrate variable and print result….Example print(‘score’)  
+##### Add a Variable for score
+##### Integrate variable and print result….Example print(‘score’)  
