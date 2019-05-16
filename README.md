@@ -21,6 +21,9 @@ Lesson number | Lesson
  Thirteen     | Snake (Part 1 & 2)
  Fourteen     | Fibonacci Sequence Challenge
  Fifteen      | Version Control and Debugging
+ 
+ 
+ 
  Sexteen      | Intro to micro:bit and Mu Editor
  Seventeen    | Data Types 
  Eightteen    | Inputs/Handing Buttons
