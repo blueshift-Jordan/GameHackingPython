@@ -4,7 +4,7 @@
 
 #### Here you will find templates and finshed code for use at Blue{Shift} coding camps and clubs:
 
-Lesson number | Lesson
+Lesson number | Lessons (Python)
 ------------- | -------------
  One          | Welcome to the world of Python 
  Two          | Introduction to Pygame
@@ -23,7 +23,7 @@ Lesson number | Lesson
  Fifteen      | Version Control and Debugging
  
  
-Lesson number | Lesson
+Lesson number | Lessons (Micro:bit)
 ------------- | -------------
  Sexteen      | Intro to micro:bit and Mu Editor
  Seventeen    | Data Types 
