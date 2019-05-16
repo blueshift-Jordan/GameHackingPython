@@ -18,13 +18,13 @@ Lesson number | Lesson
  Ten          | Shmup - Detecting Sprite collisions   (Part two)
  Eleven       | Shmup - Detecting Sprite collisions   (Part three)
  Twelve       | Shmup - Adding Images                 (Part Four)
- Thirteen     | 
- Fourteen     | 
- Fifteen      |
+ Thirteen     | Snake (Part 1 & 2)
+ Fourteen     | Fibonacci Sequence Challenge
+ Fifteen      | Version Control and Debugging
  Sexteen      | Intro to micro:bit and Mu Editor
  Seventeen    | Data Types 
  Eightteen    | Inputs/Handing Buttons
  Nineteen     | Radio (sending strings
- Twenty       | 
+ Twenty       | Making sounds with Micro:bit
 
 Credit: This course was created created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
