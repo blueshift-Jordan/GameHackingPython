@@ -23,7 +23,8 @@ Lesson number | Lesson
  Fifteen      | Version Control and Debugging
  
  
- 
+Lesson number | Lesson
+------------- | -------------
  Sexteen      | Intro to micro:bit and Mu Editor
  Seventeen    | Data Types 
  Eightteen    | Inputs/Handing Buttons
