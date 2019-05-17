@@ -25,10 +25,10 @@ Lesson number | Lessons (Python)
  
 Lesson number | Lessons (Micro:bit)
 ------------- | -------------
- Sexteen      | Intro to micro:bit and Mu Editor .                 
+ Sexteen      | Intro to micro:bit and Mu Editor                 
  Seventeen    | Data Types                                         
  Eightteen    | Inputs/Handing Buttons                                 
- Nineteen     | Radio (sending strings                                   
+ Nineteen     | Radio (sending strings)                                   
  Twenty       | Making sounds with Micro:bit
 
 Credit: This course was created created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
