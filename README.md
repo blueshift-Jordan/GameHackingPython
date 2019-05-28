@@ -31,4 +31,4 @@ Lesson number | Lessons (Micro:bit)
  Nineteen     | Radio (sending strings)                                   
  Twenty       | Making sounds with Micro:bit
 
-Credit: This course was created created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
+Credit: This course was created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
