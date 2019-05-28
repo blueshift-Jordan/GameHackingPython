@@ -30,5 +30,7 @@ Lesson number | Lessons (Micro:bit)
  Eightteen    | Inputs/Handing Buttons                                 
  Nineteen     | Radio (sending strings)                                   
  Twenty       | Making sounds with Micro:bit
+ 
+![Micro:bit](https://images.app.goo.gl/Zw2s3ye2atr2Udwh9)
 
 Credit: This course was created by Chris Moss and Lloyd Harrison on behave of Blue{Shift] Coding 
