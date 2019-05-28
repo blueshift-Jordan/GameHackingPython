@@ -1,5 +1,4 @@
 #importing pygame
-import pygame, sys
 from pygame.locals import *
 
 #initialising pygame
@@ -13,7 +12,15 @@ pygame.display.set_caption('Hello Pygame World!')
 
 # main game loop
 while True:
-    #remember the ___INDENT___    
+    #Remember the '__'INDENT
+    
+    
+    
+    
+    
+    
+    
+    #^^START_GAME_CODE_HERE^^   
 
     # This MUST happen after all the other drawing commands.
     pygame.display.flip()
