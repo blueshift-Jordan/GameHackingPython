@@ -10,7 +10,7 @@ WHITE = (?, ?, ?)
 BLUE = (?, ?, ?)
 GREEN = (?, ?, ?) 
 RED = (?, ?, ?)
-YOUR_COLOUR(S) HERE = (?, ?, ?)
+YOUR_COLOUR(S) = (?, ?, ?)
 
 #Set up our variables
 SCREEN_WIDTH = 700
@@ -27,14 +27,15 @@ class Ball:
         self.y = 0
         self.change_x = 0
         self.change_y = 0
-        self.colour = 
+        self.colour = ?????
  
  
 def make_ball():
     """
     Function to make a new, random ball.
     """
-    ball = Ball()
+    ball = Ball() #Ball instence 
+         
     # Starting position of the ball.
     # Take into account the ball size so we don't spawn on the edge.
     ball.x = random.randrange(BALL_SIZE, SCREEN_WIDTH - BALL_SIZE)
@@ -51,12 +52,13 @@ def main():
     """
     This is our main program.
     """
-    pygame.init()
+    pygame.init() 
  
     # Set the height and width of the screen
     size = [SCREEN_WIDTH, SCREEN_HEIGHT]
     screen = pygame.display.set_mode(size)
- 
+         
+    # Change your display caption:   HERE
     pygame.display.set_caption("Bouncing Balls")
  
     # Loop until the user clicks the close button.
@@ -65,9 +67,13 @@ def main():
     # Used to manage how fast the screen updates
     clock = pygame.time.Clock()
  
+    #Create an empty list
     ball_list = []
  
+    #Create another instance
     ball = make_ball()
+        
+    #Add the instance to the list
     ball_list.append(ball)
 
  
@@ -101,9 +107,12 @@ def main():
  
         # Draw the balls 
         for ball in ball_list:
-
-            #This is where we want pygame to draw our ball
-
+             #DRAW YOUR OBJECT HERE --> https://www.pygame.org/docs/ref/draw.html
+             
+             ??????.????.???????(screen, ???, [????.x, ????.y, ??, ??], 0)    
+    
+                  
+             #Don't forget to use ball.x and ball.y for the rect
  
         # --- Wrap-up
         # Limit to 60 frames per second
